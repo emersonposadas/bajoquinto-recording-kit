@@ -1,0 +1,43 @@
+# Audio y video: conservar localmente, nunca publicar en este repositorio.
+*.[wW][aA][vV]
+*.wave
+*.WAVE
+*.wav64
+*.w64
+*.rf64
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.[mM][pP]4
+*.mov
+*.MOV
+*.mkv
+*.webm
+*.avi
+
+# Medios y productos generados por Ardour
+/export/
+/interchange/
+/externals/
+/peaks/
+/analysis/
+/dead/
+/backup/
+*.pending
+*.bak
+*.tmp
+*.history
+instant.xml
+
+# Datos locales del entorno y credenciales
+.aws/
+.codex/
+.agents/
+.env
+.env.*
+__pycache__/
+.DS_Store
